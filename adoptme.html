@@ -9,25 +9,25 @@
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: #22240d;
-      color: #ede5cc;
+      background: #41431b;
+      color: #f8f3e1;
       min-height: 100vh;
       padding-bottom: 80px;
     }
 
     /* ── Header ── */
     header {
-      background: #1a1c09;
-      color: #ede5cc;
+      background: #aeb784;
+      color: #41431b;
       text-align: center;
       padding: 32px 20px 24px;
     }
-    header h1 { font-size: 2rem; color: #ede5cc; }
+    header h1 { font-size: 2rem; color: #41431b; }
     header p  { margin-top: 8px; font-size: 1rem; opacity: .85; }
     header a {
       display: inline-block;
       margin-top: 14px;
-      color: #ede5cc;
+      color: #41431b;
       font-size: .9rem;
       font-weight: 600;
       text-decoration: none;
@@ -43,9 +43,9 @@
     }
 
     .section-card {
-      background: #c5bc96;
+      background: #e3dbbb;
       border-radius: 16px;
-      box-shadow: 0 4px 18px rgba(0,0,0,.5);
+      box-shadow: 0 4px 18px rgba(0,0,0,.35);
       padding: 30px 32px;
       margin-bottom: 28px;
     }
@@ -53,10 +53,10 @@
     .section-title {
       font-size: 1.15rem;
       font-weight: 700;
-      color: #22240d;
+      color: #41431b;
       margin-bottom: 22px;
       padding-bottom: 10px;
-      border-bottom: 2px solid #8a9060;
+      border-bottom: 2px solid #aeb784;
     }
 
     .form-group { margin-bottom: 18px; }
@@ -65,7 +65,7 @@
       display: block;
       font-size: .9rem;
       font-weight: 600;
-      color: #3a3d15;
+      color: #4a4d1e;
       margin-bottom: 6px;
     }
 
@@ -77,12 +77,12 @@
     textarea {
       width: 100%;
       padding: 10px 14px;
-      border: 1.5px solid #8a9060;
+      border: 1.5px solid #aeb784;
       border-radius: 8px;
       font-size: .95rem;
       font-family: inherit;
-      background: #ede5cc;
-      color: #22240d;
+      background: #f8f3e1;
+      color: #41431b;
       transition: border-color .2s;
       outline: none;
     }
@@ -92,8 +92,8 @@
     input[type="number"]:focus,
     select:focus,
     textarea:focus {
-      border-color: #22240d;
-      background: #f5f0df;
+      border-color: #41431b;
+      background: #fff;
     }
 
     textarea { resize: vertical; min-height: 90px; }
@@ -106,34 +106,34 @@
       align-items: center;
       gap: 10px;
       font-weight: 500;
-      color: #22240d;
+      color: #41431b;
       cursor: pointer;
     }
     input[type="radio"],
     input[type="checkbox"] {
       width: 18px; height: 18px;
-      accent-color: #22240d;
+      accent-color: #41431b;
       cursor: pointer;
       flex-shrink: 0;
     }
 
     /* checkbox notice */
     .checkbox-notice {
-      background: #b0a882;
-      border: 1.5px solid #8a9060;
+      background: #d4ccaa;
+      border: 1.5px solid #aeb784;
       border-radius: 10px;
       padding: 14px 16px;
       font-size: .9rem;
       line-height: 1.55;
-      color: #22240d;
+      color: #41431b;
     }
 
     /* submit */
     .submit-btn {
       width: 100%;
       padding: 14px;
-      background: #8a9060;
-      color: #22240d;
+      background: #aeb784;
+      color: #41431b;
       font-size: 1.05rem;
       font-weight: 700;
       border: none;
@@ -141,14 +141,14 @@
       cursor: pointer;
       transition: background .2s;
     }
-    .submit-btn:hover { background: #a0a870; }
+    .submit-btn:hover { background: #c8ce9e; }
 
     /* ── Selected dog banner ── */
     .dog-banner {
       display: none;
-      background: #c5bc96;
+      background: #e3dbbb;
       border-radius: 16px;
-      box-shadow: 0 4px 18px rgba(0,0,0,.5);
+      box-shadow: 0 4px 18px rgba(0,0,0,.35);
       margin-bottom: 28px;
       overflow: hidden;
     }
@@ -168,12 +168,12 @@
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: .8px;
-      color: #3a3d15;
+      color: #5a5e28;
       margin-bottom: 6px;
     }
     .dog-banner-body h2 {
       font-size: 1.5rem;
-      color: #22240d;
+      color: #41431b;
       margin-bottom: 10px;
     }
     .dog-banner-body .dog-meta {
@@ -182,8 +182,8 @@
       gap: 8px;
     }
     .dog-banner-body .dog-meta span {
-      background: #8a9060;
-      color: #22240d;
+      background: #aeb784;
+      color: #41431b;
       font-size: .8rem;
       font-weight: 700;
       padding: 3px 12px;
@@ -192,7 +192,7 @@
     .dog-banner-body .dog-personality {
       margin-top: 10px;
       font-size: .88rem;
-      color: #2e3110;
+      color: #4a4d1e;
       line-height: 1.55;
     }
     @media (max-width: 480px) {
@@ -205,7 +205,7 @@
       text-align: center;
       margin-top: 10px;
       font-size: .83rem;
-      color: #ede5cc;
+      color: #f8f3e1;
       padding: 12px 20px 24px;
     }
   </style>
@@ -310,7 +310,6 @@
   <footer>
     รหัสนิสิต: 6833024521&nbsp;&nbsp;|&nbsp;&nbsp;ชื่อ: Kanit Srikaew &nbsp;|&nbsp; 2110507 Software Dev Practice II
   </footer>
-  <script src="adoptme.js"></script>
   <script>
     const dogs = {
       hunter: {
